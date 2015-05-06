@@ -1,5 +1,6 @@
 http://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/
 http://www.geeksforgeeks.org/tag/dynamic-programming/
+http://n00tc0d3r.blogspot.com/2013/07/optimal-game-strategy-maximum-coin-value.html
 
 Dynamic Programming | Set 31 (Optimal Strategy for a Game)
 Problem statement: Consider a row of n coins of values v1 . . . vn, where n is even. 
