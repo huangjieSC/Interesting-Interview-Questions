@@ -33,11 +33,11 @@ class Moive{
         for(user : activeUsers) { 
             if ( user.viewed.contains(this.mId)){
                 viewedBy.add(user.uId); 
-                    if (user.liked.contains(thi.mId)) { 
-                        likedBy.add(user.uId); 
-                    } 
-                    else 
-                        dislikedBy.add(user.uId); 
+                if (user.liked.contains(thi.mId)) { 
+                    likedBy.add(user.uId); 
+                } 
+                else 
+                    dislikedBy.add(user.uId); 
             } 
         } 
     } 
