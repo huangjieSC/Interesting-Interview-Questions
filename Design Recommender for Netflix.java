@@ -1,6 +1,6 @@
 class User{ 
     int uId;
-    enum Set{viewed, liked, disliked;}
+    Set viewed, liked, disliked;
     int activeScore; 
     
     List recomMovies(){ 
@@ -27,7 +27,7 @@ class User{
 
 class Moive{ 
     int mId; 
-    enum Set {viewedBy, likedBy, dislikedBy}; 
+    Set viewedBy, likedBy, dislikedBy; 
     boolean update(List activeUsers){ 
         clear viewedBy, likedBy, dislikedBy; 
         for(user : activeUsers) { 
