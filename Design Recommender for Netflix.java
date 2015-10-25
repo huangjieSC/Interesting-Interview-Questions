@@ -12,7 +12,7 @@ class User{
               else score.put(user.uId, 1); 
           } 
       } 
-      user heap to find top 10 similar users other than itself; 
+    //  user heap to find top 10 similar users other than itself; 
       List ret; 
       for(user : heap) { 
           for (mId : user.liked) { 
